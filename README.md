@@ -22,7 +22,8 @@ For those who need a refresher of their knowledge on linear algebra, probability
   * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section 5.1-5.3 (pp. 96-120)
 
 For a refresher on neural networks and a nice introduction to transformers, have a look at the 3Blue1Brown playlist:
-  * [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): chapters 1-2 (neural networks) and 5-6 (transformers) 
+  * [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): chapters 1-2
+  * [Transformers](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): chapters 5-6
 
 ### Generative models - Tuesday 25 August
 For Tuesday's hands-on session some background on graph neural networks is useful. These will only briefly be explained in the morning lecture. Therefore, please have a look at the following resources/papers before this session:
