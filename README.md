@@ -16,7 +16,7 @@ The summer school is an intensive four-day programme (Monday–Thursday, single 
 ### General
 
 For those who need a refresher of their knowledge on linear algebra, probability theory or machine learning, have a look at (part of) the following chapters of the [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio and Courville:
-  * [Linear algebra]{https://www.deeplearningbook.org/contents/linear_algebra.html): sections
+  * [Linear algebra](https://www.deeplearningbook.org/contents/linear_algebra.html): sections
   * [Probability theory](https://www.deeplearningbook.org/contents/prob.html): section 3.1-3.8 (pp. 51-60)
   * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section
 
