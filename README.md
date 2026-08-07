@@ -13,27 +13,24 @@ The summer school is an intensive four-day programme (Monday–Thursday, single 
 
 ## Background material
 
-### General background material
+### General
 
 For those who need a refresher of their knowledge on linear algebra, probability theory or machine learning, have a look at (part of) the following chapters of the [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio and Courville:
-  * [Linear algebra]{https://www.deeplearningbook.org/contents/linear_algebra.html}
-  * [Probability theory](https://www.deeplearningbook.org/contents/prob.html): Section
-  * [Machine learning]
+  * [Linear algebra]{https://www.deeplearningbook.org/contents/linear_algebra.html): sections
+  * [Probability theory](https://www.deeplearningbook.org/contents/prob.html): section 3.1-3.8 (pp. 51-60)
+  * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section
+
+### Explainable AI
+
+https://christophm.github.io/interpretable-ml-book/
+
+### Generative models and graph-neural networks
+
+Informal introduction: https://distill.pub/2021/gnn-intro/
+Graph convolution paper: https://arxiv.org/abs/1609.02907
+RosettaFold Diffusion: https://www.nature.com/articles/s41586-023-06415-8 
+
+### Multimodal learning
+On Wednesday 25 August, we will end with a journal club on a recent paper using multi-modal xAI. Therefore, read the paper before this session:
+   * [DIMAFx](https://arxiv.org/pdf/2603.02162): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction 
   
-## Course material
-
-Have a look at the following documents before the start of the course:
-   * A [self-evaluation test](background/Self-evaluation.pdf) on the prerequisite prior knowledge (mainly probability theory, some linear algebra). If you have a lot of trouble answering some of these exercises, consult the text books mentioned in the PDF, or a few [primers](background/Primers.zip) on these topics.
-   * The computer labs make extensive use of Matlab. You do not need to be a fluent programmer, but if you have never worked with Matlab before it may help to have a look at the Appendices of the computer lab [manual](manual/Manual.pdf). An extensive Matlab [primer](background/Matlab.pdf) is also available. 
-
-<!---During the course Matlab and all other software/data have to be installed on your laptop.--->
-
-   * Material used during the lectures:
-      * [Handouts](website/Handouts.zip) (ZIP, last update Wednesday January 23) of the slides used during the course;
-
-   * Material used during the computer labs:
-      * Computer lab [manual](manual/Manual.pdf) (PDF);
-      * [Matlab toolboxes and datasets](website/Data_and_code.zip) (ZIP) used, among which PRTools is the most important toolbox.
-
-To use the code and data, download the ZIP file, unpack everything in the same directory and run _prstartup_ from the Matlab command prompt. If you do not have access to a Matlab campus license, install the 30-day free [trial](https://nl.mathworks.com/campaigns/products/trials.html). When indicating toolboxes to install, you should at least select the _Deep Learning_, _Optimization_ and _Statistics and Machine Learning_ toolboxes.
-    
