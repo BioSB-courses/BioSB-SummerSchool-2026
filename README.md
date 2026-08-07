@@ -19,23 +19,23 @@ The summer school is an intensive four-day programme (Monday–Thursday, single 
 Here is some material that you can use in preparation for the summer school.
 
 ### General
-For those who need a refresher of their knowledge on linear algebra, probability theory or machine learning, have a look at (part of) the following chapters of the [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio and Courville:
+For those who need a **refresher** of their knowledge on linear algebra, probability theory or machine learning, have a look at (part of) the following chapters of the [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio and Courville:
   * [Linear algebra](https://www.deeplearningbook.org/contents/linear_algebra.html): section 2.1-2.8 (pp. 29-43)
   * [Probability theory](https://www.deeplearningbook.org/contents/prob.html): section 3.1-3.8 (pp. 51-60)
   * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section 5.1-5.3 (pp. 96-120)
 
-For a refresher on neural networks and a nice introduction to transformers, have a look at the 3Blue1Brown [playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi):
+For a **refresher** on neural networks and a nice introduction to transformers, have a look at the 3Blue1Brown [playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi):
   * [Neural networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2): chapters 1-2
   * [Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=6): chapters 5-6
 
 ### Generative models - Tuesday 25 August
-For Tuesday's session some background on graph neural networks is useful. Therefore, please have a look at the following resources/papers before this session:
+For Tuesday's session some background on graph neural networks is useful. Therefore, please have a look at the following resources/papers **before this session**:
    * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one.
    * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper!
    * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend more time on it.
 
 ### Multimodal learning - Wednesday 26 August
-On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper before this session:
+On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper **before this session**:
    * [DIMAFx](https://arxiv.org/abs/2603.02162): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction.
 
 ## Complementary material
