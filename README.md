@@ -27,7 +27,7 @@ For Tuesday's hands-on session some background on graph neural networks is usefu
 
 ### Multimodal learning - Wednesday 26 August
 On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper before this session:
-   * [DIMAFx](https://arxiv.org/pdf/2603.02162): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction 
+   * [DIMAFx](https://arxiv.org/abs/1609.02907): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction 
 
 ## Complementary material
 
