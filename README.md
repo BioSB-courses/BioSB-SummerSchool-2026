@@ -40,7 +40,7 @@ On Wednesday we will end with a journal club on a recent paper using multi-modal
 
 ## Complementary material
 
-Here we will provide supplementary material to complement the various topics discussed during the summer school. This is work in progress.
+Here we will provide complementary material for the various topics discussed during the summer school. This list is work in progress.
 
 ### Explainable AI - Monday 24 August
 For more background on explainable AI, have look at Christoph Molnar's [book](https://christophm.github.io/interpretable-ml-book/) "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable" (specifically, Chapters 14 [LIME], 17-18 [Shapley Values and SHAP], and 19 [PDP])
