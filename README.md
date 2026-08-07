@@ -6,7 +6,7 @@
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
   * [Background material](#background-material)
-  * [Complementary material](#complementary-material)
+  * [Complementary material](#complementary-material-(in-progress))
 
 # BioSB Summer School on Advanced Machine Learning and AI for Life Sciences – 2026
 
