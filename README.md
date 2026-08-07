@@ -31,7 +31,7 @@ For a **refresher** on neural networks and a nice introduction to transformers, 
 ### Generative models - Tuesday 25 August
 For Tuesday's session some background on graph neural networks is useful. Therefore, please have a look at the following resources/papers **before this session**:
    * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one.
-   * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper!
+   * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper.
    * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend more time on it.
 
 ### Multimodal learning - Wednesday 26 August
