@@ -5,6 +5,8 @@
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
+  * [Background material](#background-material)
+
 # BioSB Summer School on Advanced Machine Learning and AI for Life Sciences – 2026
 
 We are thrilled to announce the upcoming BioSB Summer School on Advanced Machine Learning and AI for Life Sciences. Set in the beautiful forests surrounding De Werelt in Lunteren, The Netherlands, the programme runs from Sunday August 23 (end of afternoon) – Thursday August 27 2026. 
