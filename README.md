@@ -23,7 +23,7 @@ For those who need a refresher of their knowledge on linear algebra, probability
 
 ### Generative models - Tuesday 25 August
 For Tuesday's hands-on session some background on graph neural networks is useful. These will only briefly be explained in the morning lecture. Therefore, please have a look at the following resources/papers before this session:
-   * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one
+   * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one.
    * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend too much time on it.
    * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper!
 
