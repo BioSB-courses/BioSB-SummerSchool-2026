@@ -5,7 +5,7 @@
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-  * [Background material](#background-material)
+  * [Preparatory material](#preparatory-material)
   * [Complementary material](#complementary-material)
 
 # BioSB Summer School on Advanced Machine Learning and AI for Life Sciences – 2026
@@ -14,7 +14,7 @@ We are thrilled to announce the upcoming BioSB Summer School on Advanced Machine
 
 The summer school is an intensive four-day programme (Monday–Thursday, single track) designed for researchers who are ready to go beyond the basics and engage with the cutting edge of AI and ML in the life sciences. Participants arrive on Sunday afternoon for a welcome dinner and to settle in before the programme begins on Monday morning. The programme strikes a 50/50 balance between theory and hands-on practice, ensuring participants not only understand modern methods but can apply them. The computational and methodological depth is central; biology serves as the motivating context throughout. See the [course website](https://www.dtls.nl/courses/biosb-summer-school-on-advanced-machine-learning-and-ai-for-life-sciences-2026/) for more information and the [schedule](https://www.dtls.nl/schedule-biosb-summer-school-on-advanced-machine-learning-and-ai-for-life-sciences-2026/).
 
-## Background material
+## Preparatory material
 
 Here is some material that you can use in preparation for the summer school.
 
@@ -29,7 +29,7 @@ For a refresher on neural networks and a nice introduction to transformers, have
   * [Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=6): chapters 5-6
 
 ### Generative models - Tuesday 25 August
-For Tuesday's hands-on session some background on graph neural networks is useful. These will only briefly be explained in the morning lecture. Therefore, please have a look at the following resources/papers before this session:
+For Tuesday's session some background on graph neural networks is useful. Therefore, please have a look at the following resources/papers before this session:
    * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one.
    * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper!
    * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend more time on it.
