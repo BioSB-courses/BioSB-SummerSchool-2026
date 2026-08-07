@@ -14,23 +14,22 @@ The summer school is an intensive four-day programme (Monday–Thursday, single 
 ## Background material
 
 ### General
-
 For those who need a refresher of their knowledge on linear algebra, probability theory or machine learning, have a look at (part of) the following chapters of the [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio and Courville:
-  * [Linear algebra](https://www.deeplearningbook.org/contents/linear_algebra.html): sections
+  * [Linear algebra](https://www.deeplearningbook.org/contents/linear_algebra.html): section 2.1-2.8 (pp. 29-43)
   * [Probability theory](https://www.deeplearningbook.org/contents/prob.html): section 3.1-3.8 (pp. 51-60)
-  * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section
+  * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section 5.1-5.3 (pp. 96-120)
 
-### Explainable AI
+### Generative models - Tuesday 25 August
+For Tuesday's hands-on session some background on graph neural networks is useful. These will only briefly be explained in the morning lecture. Therefore, please have a look at the following resources/papers before this session:
+   * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+   * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)
+   * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8) 
 
-https://christophm.github.io/interpretable-ml-book/
-
-### Generative models and graph-neural networks
-
-Informal introduction: https://distill.pub/2021/gnn-intro/
-Graph convolution paper: https://arxiv.org/abs/1609.02907
-RosettaFold Diffusion: https://www.nature.com/articles/s41586-023-06415-8 
-
-### Multimodal learning
-On Wednesday 25 August, we will end with a journal club on a recent paper using multi-modal xAI. Therefore, read the paper before this session:
+### Multimodal learning - Wednesday 26 August
+On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper before this session:
    * [DIMAFx](https://arxiv.org/pdf/2603.02162): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction 
-  
+
+## Complementary material
+
+### Explainable AI - Monday 24 August
+For more background on explainable AI, have look at Christoph Molnar's [book](https://christophm.github.io/interpretable-ml-book/) "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable" (specifically, Chapters 14 [LIME], 17-18 [Shapley Values and SHAP], and 19 [PDP])
