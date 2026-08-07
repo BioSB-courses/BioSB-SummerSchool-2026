@@ -21,19 +21,22 @@ For those who need a refresher of their knowledge on linear algebra, probability
   * [Probability theory](https://www.deeplearningbook.org/contents/prob.html): section 3.1-3.8 (pp. 51-60)
   * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section 5.1-5.3 (pp. 96-120)
 
+For a refresher on neural networks and a nice introduction to transformers, have a look at the 3Blue1Brown playlist:
+  * [Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): chapters 1-2 (neural networks) and 5-6 (transformers) 
+
 ### Generative models - Tuesday 25 August
 For Tuesday's hands-on session some background on graph neural networks is useful. These will only briefly be explained in the morning lecture. Therefore, please have a look at the following resources/papers before this session:
    * [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one.
-   * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend too much time on it.
    * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper!
+   * [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend more time on it.
 
 ### Multimodal learning - Wednesday 26 August
 On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper before this session:
-   * [DIMAFx](https://arxiv.org/abs/1609.02907): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction 
+   * [DIMAFx](https://arxiv.org/abs/2603.02162): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction.
 
 ## Complementary material (in progress)
 
-Here we will provide additional material to complement the various topics discussed during the summer school.
+Here we will provide supplementary material to complement the various topics discussed during the summer school.
 
 ### Explainable AI - Monday 24 August
 For more background on explainable AI, have look at Christoph Molnar's [book](https://christophm.github.io/interpretable-ml-book/) "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable" (specifically, Chapters 14 [LIME], 17-18 [Shapley Values and SHAP], and 19 [PDP])
