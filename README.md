@@ -1,7 +1,6 @@
 <img src="logos/BioSB_logo_full_2000x1811.jpg" width="140" height="140">
 
-[![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://zenodo.org/badge/912757594.svg)](https://doi.org/10.5281/zenodo.15511094)
-
+[![CC BY 4.0][cc-by-shield]][cc-by]
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
