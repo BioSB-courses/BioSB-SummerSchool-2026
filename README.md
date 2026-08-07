@@ -22,7 +22,7 @@ For those who need a refresher of their knowledge on linear algebra, probability
   * [Machine learning](https://www.deeplearningbook.org/contents/ml.html): section 5.1-5.3 (pp. 96-120)
 
 For a refresher on neural networks and a nice introduction to transformers, have a look at the 3Blue1Brown [playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi):
-  * [Neural networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1): chapters 1-2
+  * [Neural networks](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2): chapters 1-2
   * [Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=6): chapters 5-6
 
 ### Generative models - Tuesday 25 August
