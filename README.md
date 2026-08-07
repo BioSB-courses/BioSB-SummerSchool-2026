@@ -6,7 +6,7 @@
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
   * [Background material](#background-material)
-  * [Complementary material](#complementary-material-(in-progress))
+  * [Complementary material](#complementary-material)
 
 # BioSB Summer School on Advanced Machine Learning and AI for Life Sciences – 2026
 
@@ -38,9 +38,9 @@ For Tuesday's hands-on session some background on graph neural networks is usefu
 On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper before this session:
    * [DIMAFx](https://arxiv.org/abs/2603.02162): Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction.
 
-## Complementary material (in progress)
+## Complementary material
 
-Here we will provide supplementary material to complement the various topics discussed during the summer school.
+Here we will provide supplementary material to complement the various topics discussed during the summer school. This is work in progress.
 
 ### Explainable AI - Monday 24 August
 For more background on explainable AI, have look at Christoph Molnar's [book](https://christophm.github.io/interpretable-ml-book/) "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable" (specifically, Chapters 14 [LIME], 17-18 [Shapley Values and SHAP], and 19 [PDP])
