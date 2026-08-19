@@ -32,7 +32,7 @@ For a **refresher** on neural networks and a nice introduction to transformers, 
 For Tuesday's session some background on graph neural networks is useful. Therefore, please have a look at the following resources/papers **before this session**:
    * [A gentle introduction to graph neural networks](https://distill.pub/2021/gnn-intro/): definitely have a  close look at this one.
    * [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8): try to grasp the main idea summarized in Figure 1. So, no need to read the entire paper.
-   * [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated don't spend more time on it.
+   * [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907): complicated technical paper, try to grasp the main gist of it. If that's too complicated, don't spend more time on it.
 
 ### Multimodal learning - Wednesday 26 August
 On Wednesday we will end with a journal club on a recent paper using multi-modal xAI. Therefore, please read the paper **before this session**:
