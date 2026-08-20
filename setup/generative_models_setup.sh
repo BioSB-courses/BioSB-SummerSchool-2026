@@ -17,8 +17,10 @@
 	sudo mkdir /data/generative_models
 	cd /data/generative_models
 	sudo mkdir -p esmfold
+    sudo cp /home/pmoerland/researchdrive/Research_Drive_Perry_Moerland\ \(Projectfolder\)/BioSB_summer_school/Generative_models/conda-envs-amelia/esmfold.tar.gz .	
 	sudo tar -xzf esmfold.tar.gz -C esmfold
 	sudo mkdir -p protein-design
+	sudo cp /home/pmoerland/researchdrive/Research_Drive_Perry_Moerland\ \(Projectfolder\)/BioSB_summer_school/Generative_models/conda-envs-amelia/protein-design.tar.gz .	
 	sudo tar -xzf protein-design.tar.gz -C protein-design
 
 # Then, move environments to /opt/miniconda3/envs
