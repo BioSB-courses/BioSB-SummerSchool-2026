@@ -1,4 +1,4 @@
-<img src="logos/BioSB_logo_full_2000x1811.jpg" width="140" height="140">
+<img src="logos/BioSB_logo_full_2000x1811.jpg" width="140" height="140"> <img src="logos/TDCC-LSH-Logo_RGB-1-1024x863.png" width="160" height="160">
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
