@@ -19,9 +19,19 @@ cd /data/generative_models
 sudo mkdir -p esmfold
 sudo cp /home/pmoerland/researchdrive/Research_Drive_Perry_Moerland\ \(Projectfolder\)/BioSB_summer_school/Generative_models/conda-envs-amelia/esmfold.tar.gz .	
 sudo tar -xzf esmfold.tar.gz -C esmfold
+
+source esmfold/bin/activate
+sudo esmfold/bin/python esmfold/bin/conda-unpack
+source esmfold/bin/deactivate
+
 sudo mkdir -p protein-design
 sudo cp /home/pmoerland/researchdrive/Research_Drive_Perry_Moerland\ \(Projectfolder\)/BioSB_summer_school/Generative_models/conda-envs-amelia/protein-design.tar.gz .	
 sudo tar -xzf protein-design.tar.gz -C protein-design
+
+source protein-design/bin/activate
+sudo protein-design/bin/python protein-design/bin/conda-unpack
+source protein-design/bin/deactivate
+
 sudo rm esmfold.tar.gz protein-design.tar.gz
 
 # Then, move environments to /opt/miniconda3/envs
@@ -51,14 +61,36 @@ conda --version
 
 # Pip install RFdiffusion in protein-design environment
 conda activate protein-design
-sudo pip install -e "/data/generative_models/RFdiffusion/env/SE3Transformer"
-sudo pip install -e "/data/generative_models/RFdiffusion"
+
+# Run conda-unpack again to fix paths
+sudo /opt/miniconda3/envs/protein-design/bin/python \
+  /opt/miniconda3/envs/protein-design/bin/conda-unpack
+sudo /opt/miniconda3/envs/esmfold/bin/python \
+  /opt/miniconda3/envs/esmfold/bin/conda-unpack
+
+sudo /opt/miniconda3/envs/protein-design/bin/python -m pip install --no-deps -e \
+  /data/generative_models/RFdiffusion/env/SE3Transformer
+sudo /opt/miniconda3/envs/protein-design/bin/python -m pip install --no-deps -e \
+  /data/generative_models/RFdiffusion/
 
 # Problem with DGL and cuda (while running RFdiffusion):
 # `OSError: libcusparse.so.11: cannot open shared object file: No such file or directory`
 # Fix install cuda
-sudo /opt/miniconda3/bin/conda install -y -c conda-forge cudatoolkit=11.6 cudnn=8.4
-sudo /opt/miniconda3/bin/conda env config vars set LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+sudo /opt/miniconda3/bin/conda install -y -n protein-design -c conda-forge cudatoolkit=11.6 cudnn=8.4
+sudo /opt/miniconda3/bin/conda env config vars set \
+  -n protein-design LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+
+# Provide permissions for the RFdiffusion `schedules` folder
+sudo mkdir -p /data/generative_models/RFdiffusion/schedules
+sudo chmod 1777 /data/generative_models/RFdiffusion/schedules
+
+# Download ESMFold weights only once
+sudo mkdir -p /data/generative_models/ESMFold/hf-cache
+sudo HF_HOME=/data/generative_models/ESMFold/hf-cache \
+  /opt/miniconda3/envs/esmfold/bin/python -c \
+  "from huggingface_hub import snapshot_download; \
+   snapshot_download('facebook/esmfold_v1')"
+
 # Reactivate env
 conda deactivate
 conda activate protein-design
