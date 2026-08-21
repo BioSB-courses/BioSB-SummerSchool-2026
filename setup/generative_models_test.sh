@@ -7,3 +7,5 @@ conda --version
 git clone https://github.com/BioSB-courses/BioSB-SummerSchool-2026.git
 cp -r BioSB-SummerSchool-2026/Practical-2-Generative-models/* .
 
+
+
