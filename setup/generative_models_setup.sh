@@ -62,7 +62,6 @@ sudo /opt/miniconda3/bin/conda env config vars set LD_LIBRARY_PATH=$CONDA_PREFIX
 # Reactivate env
 conda deactivate
 conda activate protein-design
-conda deactivate
 
 # Change kernel.json to connect Jupyter to local environment by default
 sudo cp /home/pmoerland/researchdrive/Research_Drive_Perry_Moerland\ \(Projectfolder\)/BioSB_summer_school/Generative_models/conda-envs-amelia/kernel.json /usr/local/share/jupyter/kernels/src-default/kernel.json
