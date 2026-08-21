@@ -281,7 +281,9 @@ def estimate_weighted_elbo(x0_fullatom, seq, atom_mask, sampler,
 # CLI entry point -- run standalone
 # --------------------------------------------------------------------------
 
-@hydra.main(version_base=None, config_path="../RFdiffusion/config/inference", config_name="base")
+@hydra.main(version_base=None,
+            config_path="/data/generative_models/RFdiffusion/config/inference",
+            config_name="base")
 def main(conf: DictConfig) -> None:
     input_pdb = conf.inference.input_pdb
     assert input_pdb, (
