@@ -1,4 +1,4 @@
-# Workspace assignments - Practical 3 - Scientific machine learning
+# Workspace assignments: Practical 3 - Scientific machine learning
 
 Participants are listed in alphabetical order of first name, partitioned across four SURF Research Cloud workspaces.
 
