@@ -16,3 +16,7 @@ This copies four notebooks `1-ode-models.ipynb`, `2-serial-hybrid.ipynb`, `3-pin
 ## Practical session steps
 
 Start with `1-ode-models.ipynb` and then continue in the logical order :-).
+
+## Background material
+  - Never programmed in Juila then this is nice introduction: https://github.com/Datseris/Zero2Hero-JuliaWorkshop/blob/main/1-JuliaIntro.ipynb. It's part of the [Zero-to-Hero Julia workshop
+](https://github.com/Datseris/Zero2Hero-JuliaWorkshop/) by George Datseris.
