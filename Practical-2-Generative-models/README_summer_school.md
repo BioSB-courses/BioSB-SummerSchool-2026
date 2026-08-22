@@ -1,6 +1,6 @@
 # Practical 2 - Generative models
 
-For this session we will use workspaces (aka as virtual machines) on SURF Research Cloud. There are four workspaces (Ubuntu 22.04, 16 Core - 64 GB RAM) available and each of you has been assigned to one of the workspaces. Open [generative_models_workspace_assignments.md](generative_models_workspace_assignments.md) and then click the link behind your name to go to your designated workspace.
+For this session we will use workspaces (aka as virtual machines) on SURF Research Cloud. There are four workspaces (Ubuntu 22.04, 16 Core - 64 GB RAM) available and each of you has been assigned to one of the workspaces. Open [generative_models_workspace_assignments.md](generative_models_workspace_assignments.md) and then click the link behind your name to log in and go to your designated workspace.
 
 ## Initial setup
 
