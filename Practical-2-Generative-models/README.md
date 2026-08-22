@@ -8,7 +8,7 @@ Open a terminal in the machine. Initialize conda once to add it to your .bashrc
 
 Close terminal and open a new one. Check conda with `conda --version`
 
-Clone the GitHub repository in your home directory and copy the files for *Practical 2 - Generative models*
+Clone the GitHub repository in your home directory and copy the files for *Practical-2-Generative-models*
 
 ```
 git clone https://github.com/BioSB-courses/BioSB-SummerSchool-2026.git
