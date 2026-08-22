@@ -1,5 +1,7 @@
 # Practical 2 - Generative models
 
+For this session we will use workspaces (aka as virtual machines) on SURF Research Cloud. There are four workspaces (Ubuntu 22.04, 16 Core - 64 GB RAM) available and each of you has been assigned to one of the workspaces. Open generative_models_workspace_assignments.md and then click the link behind your name to go to your designated workspace.
+
 ## Initial setup
 
 Open a terminal in the machine. Initialize conda once to add it to your .bashrc
