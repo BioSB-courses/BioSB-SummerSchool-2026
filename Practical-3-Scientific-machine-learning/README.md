@@ -1,5 +1,3 @@
 **README**
 
-UDE workshop for BioSB advanced machine learning summer school.
-
-In development.
+UDE workshop for BioSB summer school. Work in progress, content is likely to change.
