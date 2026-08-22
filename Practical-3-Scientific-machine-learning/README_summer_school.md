@@ -1,6 +1,6 @@
 # Practical 3 - Scientific machine learning
 
-For this session we will use workspaces (aka as virtual machines) on SURF Research Cloud. There are four workspaces (Ubuntu 22.04, A10 - 2 GPU) available and each of you has been assigned to one of the workspaces. Open [julia_workspace_assignments.md](julia_workspace_assignments.md) and then click the link behind your name to log in and go to your designated workspace.
+For this session we will use workspaces (aka as virtual machines) on SURF Research Cloud. There are four workspaces (Ubuntu 22.04, 16 Core - 64 GB RAM) available and each of you has been assigned to one of the workspaces. Open [julia_workspace_assignments.md](julia_workspace_assignments.md) and then click the link behind your name to log in and go to your designated workspace.
 
 ## Initial setup
 
