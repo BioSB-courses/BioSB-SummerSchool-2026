@@ -1,3 +1,5 @@
+Work in progress, content is likely to change.
+
 ## Initial setup
 
 Open a terminal in the machine. Initialize conda once to add it to your .bashrc
