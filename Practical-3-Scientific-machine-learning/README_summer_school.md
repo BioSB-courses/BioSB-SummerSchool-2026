@@ -4,7 +4,7 @@ For this session we will use workspaces (aka as virtual machines) on SURF Resear
 
 ## Initial setup
 
-Clone the GitHub repository in your home directory and copy the files for *Practical-3-Scientific-machine-learning*
+Open a terminal in the machine, clone the GitHub repository in your home directory and copy the files for *Practical-3-Scientific-machine-learning*
 
 ```
 git clone https://github.com/BioSB-courses/BioSB-SummerSchool-2026.git
