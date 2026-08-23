@@ -1,4 +1,4 @@
-Work in progress, content is likely to change.
+Work in progress, content may still change.
 
 ## Initial setup
 
