@@ -28,6 +28,7 @@ from omegaconf import DictConfig
 from rfdiffusion.inference.utils import get_mu_xt_x0, get_next_frames, parse_pdb, sampler_selector
 from rfdiffusion.util import rigid_from_3_points
 
+# fill in the 7 gaps in the function "estimate_weighted_elbo"
 
 # --------------------------------------------------------------------------
 # SO(3) tangent-space helper (self-contained)
@@ -82,7 +83,7 @@ def _run_sample_step(sampler, t, x_t, seq_onehot):
 # Option 1: loss-based proxy
 # --------------------------------------------------------------------------
 
-def estimate_denoising_loss(x0_fullatom, seq, atom_mask, sampler, n_t_samples=64, T=None):
+def estimate_denoising_loss(x0_fullatom, seq, atom_mask, sampler, n_t_samples=16, T=None):
     """
     x0_fullatom: (L, 14 or 27, 3) tensor -- coordinates of the generated structure
     seq:         (L,) integer sequence tensor, as parse_pdb / RFdiffusion expects
@@ -131,7 +132,7 @@ def estimate_denoising_loss(x0_fullatom, seq, atom_mask, sampler, n_t_samples=64
 # --------------------------------------------------------------------------
 
 def estimate_weighted_elbo(x0_fullatom, seq, atom_mask, sampler, 
-                           n_t_samples=64, T=None):
+                           n_t_samples=16, T=None):
     """
     x0_fullatom: (L, 14 or 27, 3) tensor. Coordinates of the generated structure
     seq:         (L,) integer sequence tensor, as parse_pdb / RFdiffusion expects.
@@ -173,6 +174,8 @@ def estimate_weighted_elbo(x0_fullatom, seq, atom_mask, sampler,
     ts = ...
 
     terms = []
+    # perform n_t_samples monte carlo steps. In each step, calculate the denoising matching KL divergence
+    # result is added to the list "terms"                     
     for t in ts:
         # call diffuser model to add noise to generated structure
         fa_stack, _ = diffuser.diffuse_pose(
@@ -183,9 +186,12 @@ def estimate_weighted_elbo(x0_fullatom, seq, atom_mask, sampler,
         x_t = fa_stack[0]
 
         # STEP 2: use _run_sample_step to denoise from x_t to px0
+        # see function definition of _run_sample_step above
         px0 = ...  # (L, 14, 3)
 
         # ---- translation KL, via RFdiffusion's own posterior-mean function ----
+        # this is done separately for translation and rotation features
+        # translation is easier, you will code this; rotation is more tricky.
 
         # the noise schedule (beta_schedule/alphabar_schedule) is calibrated for
         # coordinates in a normalized, roughly unit-variance range;
@@ -225,6 +231,9 @@ def estimate_weighted_elbo(x0_fullatom, seq, atom_mask, sampler,
         # squared distance between means because the variance terms cancel
         trans_kl = ...
 
+        # this is the rotation part, you don't have to do anything with it; go to step 6
+        # the estimate of KL for the rotation features is calculated and stored in the variable rot_kl
+        
         # RFdiffusion diffuses rotations (backbone orientation) separately from 
         # translations, using an IGSO3 process on SO(3); there's no simple 
         # closed-form Gaussian KL there, so this is an approximantion
@@ -259,6 +268,7 @@ def estimate_weighted_elbo(x0_fullatom, seq, atom_mask, sampler,
         rot_g = diffuser.so3_diffuser.g(continuous_t)
         rot_var = float(rot_g ** 2) * diffuser.so3_diffuser.step_size
 
+        # this is the final estimate of the denoising matching KL divergence for the rotation features
         rot_kl = torch.mean(rotation_geodesic_distance(R_true_next, R_pred_next) ** 2) / (2 * rot_var)
 
         # STEP 6: add the translation and rotation KL 
@@ -304,8 +314,8 @@ def main(conf: DictConfig) -> None:
     sampler = sampler_selector(conf)
     sampler.sample_init()
 
-    n_t_samples_loss = int(conf.get("n_t_samples_loss", 64))
-    n_t_samples_weighted = int(conf.get("n_t_samples_weighted", 64))
+    n_t_samples_loss = int(conf.get("n_t_samples_loss", 16))
+    n_t_samples_weighted = int(conf.get("n_t_samples_weighted", 16))
 
     denoising_loss = estimate_denoising_loss(
         x0_fullatom, seq, atom_mask, sampler, n_t_samples=n_t_samples_loss,
