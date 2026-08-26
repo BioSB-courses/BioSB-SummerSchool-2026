@@ -48,3 +48,10 @@ For more background on explainable AI, have look at Christoph Molnar's [book](ht
 
 ### Generative models - Tuesday 25 August
 A video from 3Blue1Brownon on diffusion models and conditioning: https://www.youtube.com/watch?v=iv-5mZ_9CPY
+
+### Scientific machine learning - Wednesday 26 August
+Some recent papers for those who want to dive deeper:
+  * Giampiccolo et al. A novel approach to quantify out-of-distribution uncertainty in neural and universal differential equations [link](https://www.nature.com/articles/s41540-026-00749-5)
+  * Persson et al. Curriculum Multiple Shooting for Robust Training of Neural and Universal Differential Equations [link](https://arxiv.org/abs/2608.05777)
+  * Loman et al. Structural functional identifiability and model discovery in differential equation models [link](https://arxiv.org/abs/2606.30289)
+
