@@ -2,8 +2,6 @@
 
 Each participant below is assigned to one of the 7 tasks with participants listed in alphabetical order of first name.
 
-
-
 | Participant | Assigned task | Topic | Task file |
 |---|---|---|---|
 | Alejandro Sánchez Cano | 5 | Disentangled attention fusion | [task-group-5-disentangled-attention-fusion.md](task-group-5-disentangled-attention-fusion.md) |
@@ -23,7 +21,7 @@ Each participant below is assigned to one of the 7 tasks with participants liste
 | Leron Kok | 5 | Disentangled attention fusion | [task-group-5-disentangled-attention-fusion.md](task-group-5-disentangled-attention-fusion.md) |
 | Li-Chin Wang | 2 | Representation learning – whole-slide images | [task-group-2-wsi-representation-learning.md](task-group-2-wsi-representation-learning.md) |
 | Lucia Mellini | 2 | Representation learning – whole-slide images | [task-group-2-wsi-representation-learning.md](task-group-2-wsi-representation-learning.md) |
-| Madhupreetha | 3 | Representation learning – expression data | [task-group-3-expression-representation-learning.md](task-group-3-expression-representation-learning.md) |
+| Madhupreetha Vivekanandan | 3 | Representation learning – expression data | [task-group-3-expression-representation-learning.md](task-group-3-expression-representation-learning.md) |
 | Miguel Parra Martinez | 4 | Risk prediction, survival analysis and the C-index | [task-group-4-survival-analysis-cindex.md](task-group-4-survival-analysis-cindex.md) |
 | Noa Eleveld | 3 | Representation learning – expression data | [task-group-3-expression-representation-learning.md](task-group-3-expression-representation-learning.md) |
 | Sarah Mehrem | 3 | Representation learning – expression data | [task-group-3-expression-representation-learning.md](task-group-3-expression-representation-learning.md) |
