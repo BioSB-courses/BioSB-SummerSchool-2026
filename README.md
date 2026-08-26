@@ -45,3 +45,6 @@ Here we will provide complementary material for the various topics discussed dur
 
 ### Explainable AI - Monday 24 August
 For more background on explainable AI, have look at Christoph Molnar's [book](https://christophm.github.io/interpretable-ml-book/) "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable" (specifically, Chapters 14 [LIME], 17-18 [Shapley Values and SHAP], and 19 [PDP])
+
+### Generative models - Tuesday 25 August
+Yet another video from 3Blue1Brown very useful on diffusion models and conditioning: https://www.youtube.com/watch?v=iv-5mZ_9CPY
