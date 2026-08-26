@@ -10,7 +10,7 @@
 - The bullet points listed under each task are examples of what could be covered — they are **not exhaustive**, and you do not need to address them one by one. Given the short presentation slot, **select and prioritise** the most important points.
 - You're encouraged to **ask questions** during other groups' presentations, so that by the end everyone has a full understanding of the paper.
 
-## Groups & Topics
+## Groups & topics
 
 | Group | Topic |
 |-------|-------|
