@@ -14,4 +14,3 @@ Explain in detail how the interactions between the two modalities are determined
 
 ---
 *45 minutes to prepare · 5-minute presentation · 2 minutes Q&A*
-*Put your names and group number on the first slide!*
