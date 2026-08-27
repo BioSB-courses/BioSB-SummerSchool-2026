@@ -1,1 +1,3 @@
-For this practical you can again use Google Colab.
+Practical 5 - Foundation models
+
+For this practical use Google Colab.
